@@ -45,7 +45,7 @@ No special contribution requirements.
 To run tests, run the following command:
 
 ```
-npm test
+N/A
 ```
 
 ## Questions
