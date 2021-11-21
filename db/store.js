@@ -1,7 +1,10 @@
 const util = require('util');
 const fs = require('fs');
 
-const uuidv1 = require('../node_modules/uuid/dist/v1');
+const { 
+  v1: uuidv1,
+  v4: uuidv4,
+} = require('uuid');
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
